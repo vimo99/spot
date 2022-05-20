@@ -81,7 +81,7 @@ class DownloadTracker:
             song_name = self.song_list[0].song_name
 
             song_name = format_name(song_name)
-
+            song_name = "Spotify"
             self.save_file = Path(song_name + ".spotdlTrackingFile")
 
         # save encoded string to a file
